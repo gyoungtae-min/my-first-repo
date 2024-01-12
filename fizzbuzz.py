@@ -4,8 +4,8 @@ def do_fizzbuzz():
    print('fizz')
   elif i%5==0:
    print('buzz')
-  else:
-   print(f'{i}')
+  else: i%15 ==0:
+   print('fizzbuzz')
 
 
 if __name__=='__main__':
